@@ -1,5 +1,6 @@
 plugins {
     id 'com.android.library'
+
 }
 
 android {
@@ -10,11 +11,7 @@ android {
         enable = true
     }
 
-    publishing {
-        singleVariant('release') {
-            withSourcesJar()
-        }
-    }
+
 
     defaultConfig {
         minSdk 21
